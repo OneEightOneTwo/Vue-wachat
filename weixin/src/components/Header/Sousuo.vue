@@ -1,6 +1,10 @@
 <template>
   <div>
+<<<<<<< HEAD
        <div class="weui-search-bar" @click="to" id="searchBar">
+=======
+       <div class="weui-search-bar" id="searchBar">
+>>>>>>> 8c8505ad5aa03b9c02f97b191dbe1c530a7de544
             <form class="weui-search-bar__form">
                 <div class="weui-search-bar__box">
                     <i class="weui-icon-search"></i>
@@ -22,12 +26,16 @@
 export default {
   components:{
     
+<<<<<<< HEAD
   },
     methods: {
         to(){
               
         }
     }
+=======
+  }
+>>>>>>> 8c8505ad5aa03b9c02f97b191dbe1c530a7de544
   
 }
 </script>
