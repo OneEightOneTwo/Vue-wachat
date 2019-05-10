@@ -1,6 +1,6 @@
 <template>
   <div>
-       <div class="weui-search-bar" id="searchBar">
+       <div class="weui-search-bar" @click="to" id="searchBar">
             <form class="weui-search-bar__form">
                 <div class="weui-search-bar__box">
                     <i class="weui-icon-search"></i>
@@ -22,7 +22,12 @@
 export default {
   components:{
     
-  }
+  },
+    methods: {
+        to(){
+              
+        }
+    }
   
 }
 </script>
